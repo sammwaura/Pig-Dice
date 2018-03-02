@@ -1,0 +1,12 @@
+#wrapper{
+  height: 1000px;
+  background-image: url(../img/dice2.jpg);
+  /*background-repeat: no-repeat;*/
+  overflow: hidden;
+}
+
+.jumbotron{
+  text-align: center;
+  text-underline-position: below;
+  background-color: 17a2b8;
+}
