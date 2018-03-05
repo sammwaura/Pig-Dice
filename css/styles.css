@@ -1,6 +1,5 @@
 #wrapper{
   height: 1000px;
-  background-image: url(../img/dice2.jpg);
   /*background-repeat: no-repeat;*/
   overflow: hidden;
 }
@@ -9,4 +8,22 @@
   text-align: center;
   text-underline-position: below;
   background-color: 17a2b8;
+}
+
+.content-wrapper{
+  width: 100%;
+  /*height:%;*/
+  position: relative;
+  margin: auto;
+  margin-top: 10px;
+  padding: 15px;
+  background-image: url(../img/dice2.jpg);
+  /*text-decoration-color: blue;*/
+}
+
+.content {
+ background: rgba(0, 0, 0, 0.5);
+ font-family: monospace;
+  font-size: 20px;
+  color:orange;
 }
