@@ -12,4 +12,7 @@ $(document).ready(function() {
    $("#title").append(name);
    $("form#form2").hide();
  });
- 
+ $('button#roll').click(function() {
+    scoreBoard(player1, player2);
+    answer = $(".answer1").text(score);
+  });
