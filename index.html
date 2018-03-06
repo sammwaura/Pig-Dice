@@ -11,28 +11,38 @@
     <div id="wrapper" "col-md-12">
       <div id="header" "col-md-12">
         <div class="jumbotron">
-          <h2><strong>PIG DICE GAME</strong></h2>
+          <h2><strong>AYE!</strong>Lets Play Pig Dice!!!</h2>
           <img src="img/dices.jpg" alt="">
             <img src="img/pig.png" alt="">
         </div>
       </div>
-      <div class="content-wrapper">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-10">
-          <h3>GAme Rules</h3>
-          <p class="content">- The game has 2 players, playing in rounds</p>
-          <p class="content"> In each turn, a player rolls a dice as many times as he whishes.
-             Each result get added to his ROUND score</p>
-          <p class="content"> BUT, if the player rolls a 1, all his ROUND score gets lost.
-                After that, it's the next player's turn</p>
-          <p class="content">The player can choose to 'Hold', which means that his ROUND score gets added to his GLBAL score.
-                   After that, it's the next player's turn</p>
-          <p class="content"> The first player to reach 100 points on GLOBAL score wins the game</p>
-            </div>
-          </div>
-        </div>
-      </div>
-  </div>
-</body>
+      <div class="container">
+         <div class="row">
+             <div class="col-md-6">
+                 <div class="player1">
+                   <form id="form"
+                   <h3 id="titles"></h3>
+         <div class="answer1" id="player1"></div>
+       </div>
+        <button type="submit" name="button" id="roll">Roll</button>
+        <button type="submit" name="button" id="hold">Hold</button>
+     </div>
+            </form>
+            <div class="col-md-2 text-center"></div>
+                  <div class="col-md-5">
+                    <div class="player2">
+                      <form id="form2">
+                        <label for="">Player2</label>
+                      </form>
+                      <h4 id="title"></h4>
+                      <div class="answer2" id="player2"></div>
+                    </div>
+                    <button type="submit" name="button" id="roll2" >Roll</button >
+                    <button type="submit" name="button" id="hold2">Hold</button>
+                 </div>
+             </div>
+           </div>
+         </div>
+       </div>
+  </body>
 </html>
