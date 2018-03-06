@@ -16,3 +16,8 @@ $(document).ready(function() {
     scoreBoard(player1, player2);
     answer = $(".answer1").text(score);
   });
+  $('button#roll2').click(function() {
+    scoreBoard(player1, player2);
+    answer = $(".answer2").text(score);
+  });
+});
