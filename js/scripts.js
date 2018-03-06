@@ -28,3 +28,10 @@ var player = function(name, score) {
   this.name = name;
   this.score = 0;
 }
+
+var diceRoller = function() {
+  size = 6;
+  for (var i = 1; i <= size; i++) {
+    return (Math.floor(Math.random() * 6) + 1);
+  }
+}
