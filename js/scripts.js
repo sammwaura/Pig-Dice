@@ -35,3 +35,12 @@ var diceRoller = function() {
     return (Math.floor(Math.random() * 6) + 1);
   }
 }
+var score = 0;
+function scoreBoard(user1, user2) {
+  var rolled = diceRoller();
+  if (rolled !== 1) {
+    score += rolled;
+  } else if (rolled === 1) {
+    score = 0;
+  }
+}
