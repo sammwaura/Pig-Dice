@@ -21,3 +21,10 @@ $(document).ready(function() {
     answer = $(".answer2").text(score);
   });
 });
+
+// Business Logic
+var answer
+var player = function(name, score) {
+  this.name = name;
+  this.score = 0;
+}
